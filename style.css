@@ -105,9 +105,30 @@ h3 {
     }
 } */
 
+.transition{
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 400px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    font-family: sans-serif;
+    border: 2px solid #000;
+}
+#t1{
+    transition: height 0.7s;
+
+}
+
+#t1:hover{
+    height: 200px;
+}
+
 .fondo {
-    background-color: orange;
     width: 100%;
+    background-image: linear-gradient(orange, yellow);
 }
 @media (min-width: 768px) {
     iframe {
